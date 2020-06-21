@@ -4,6 +4,7 @@ export default class Pencil {
     this.maxDurability = durability;
     this.length = length;
     this.eraserDurability = eraserDurability
+    console.log("anubhav chaturvedi")
   }
 
   getPencilDurability() {
