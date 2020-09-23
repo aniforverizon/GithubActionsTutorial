@@ -18,7 +18,7 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: ${{ matrix.node-version }}
-    - name: Install npm for Eduonix and Demo it to KB
+    - name: Install npm for WiseDV  and Demo it to Developers Team
       run: npm install
     - name: Test
       run: npm test
