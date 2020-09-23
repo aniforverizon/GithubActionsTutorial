@@ -19,10 +19,10 @@ describe("Pencil Durability Kata Tests", () => {
 
     it("Writes text to paper that already has text written on it", () => {
       const pencil = new Pencil();
-      const paper = "Hi, my name is Chandler ";
+      const paper = "Hi, my name is Jaydeep ";
       const result = pencil.writeOnPaper(paper, "and I love to code!");
 
-      expect(result).to.equal("Hi, my name is Anubhav and I love to code!");
+      expect(result).to.equal("Hi, my name is Jaydeep and I love to code!");
     });
 
     it("Decreases pencil durability by 5 after writing 'hello' with a durability of 50", () => {
